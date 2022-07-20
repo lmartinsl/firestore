@@ -1,0 +1,11 @@
+npm i firebase -g
+npm i --save firebase @angular/fire
+  (http://github.com/angular/angularfire2)
+
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
+
+AngularFireModule.initializeApp(environment.firebaseConfig),
+AngularFirestoreModule,
+AngularFireDatabaseModule
