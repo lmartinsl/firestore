@@ -9,3 +9,12 @@ import { AngularFireDatabaseModule } from '@angular/fire/database';
 AngularFireModule.initializeApp(environment.firebaseConfig),
 AngularFirestoreModule,
 AngularFireDatabaseModule
+
+ng serve --prod (Abre um novo servidor utilizando o environment de produção)
+ng build --prod (Gera uma pasta 'dist' contendo toda a aplicação angular com linguagem em baixo nível - ECMA5 bundles)
+
+firebase login
+firebase init (Deploy)
+  Hosting: Configure and actions Deploys
+  Selecionar a pasta do projeto dentro da dist
+firebase deploy
